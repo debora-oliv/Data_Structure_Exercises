@@ -11,7 +11,7 @@ A arquitetura do script foi dividida em funções de responsabilidade única par
 
 **`escanear_vazamentos(texto: str, tipo_dado: str) -> list[str]`**: Recebe o texto bruto, aplica expressões regulares (Regex) específicas com base no tipo de dado solicitado e retorna uma lista contendo todas as ocorrências encontradas no texto ou, caso nada tenha sido encontrado, retorna uma lista vazia.
 
-**`renderizar_dashboard()`**: Concentra toda a lógica da interface web, criando os campos de entrada, botões de ação e exibindo tabelas e métricas com os dados processados pelas funções anteriores.
+**`renderizar_dashboard()`**: Concentra toda a lógica da interface web, criando os campos de entrada, botões de ação e exibindo os resultados obtidos da varredura.
 
 # Pacotes e Bibliotecas
 **`requests`**: Pacote usado para buscar o texto bruto diretamente da URL via requisições HTTP.
